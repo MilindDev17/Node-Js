@@ -1,0 +1,22 @@
+
+var fileJSON = {
+    name:"Milind",
+    age: 25,
+    search:"hello i am new",
+    input:"me you know"
+};
+var notestring = {
+    name:"cabre",
+    age: "canteen",
+    search:"happy now",
+    input: "make a feel a high hopes    "
+};
+var fileJSONS = JSON.stringify(fileJSON);
+var fileJSONSWrit = fs.writeFileSync('FILESTORING.json',fileJSONS);
+var notestring = JSON.stringify(notestring);
+var notstringwwrite = fs.writeFileSync('Notestring.json',notestring);
+
+
+output
+======
+{"name":"cabre","age":"canteen","search":"happy now","input":"make a feel a high hopes    "}
