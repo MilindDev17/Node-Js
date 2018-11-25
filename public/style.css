@@ -1,0 +1,82 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+    .header{
+        background:salmon;
+    }
+    .navbar-item-text{
+        font-size: 70%;
+    }
+    .navbar-link-text{
+        color: darkgrey
+    }
+    .nav-active{
+    color: darkblue
+    }
+    .menu-item{
+        color: saddlebrown
+    }
+    .menu-item:hover{
+        color: hotpink
+    }
+    
+    .con-flu-first{
+        background: red;
+        color: aqua;
+        padding-right: 10px;
+        padding-left: 60%;
+       
+    }
+     
+    .con-flu-second{
+        background: black;
+        color: aqua;
+        padding-top: -10%;
+        padding-left: 70%;
+    } 
+    .but{
+        border-bottom-left-radius: 1px;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+        border-bottom-right-radius: 1px;
+        border-color: white; 
+    }
+    .but:hover{
+        color: blue;
+    }
+    .head{
+        background:url('./pimage/practofullimage.jpg') center /cover;
+        width:100%;    
+        height:100%;
+    }
+    
+    /*banner center element */
+    .banner{
+        position: absolute;
+        right: 70%;
+        left:  -10%;
+        transform: translate(50%,10%);
+        width: 60%;
+        height: 50%;
+    }
+    .banner-heading{
+        animation-name: anim;
+        animation-duration: 2s;
+    
+    }
+    .banner-par{
+        animation-name: anim;
+        animation-duration: 2s;
+        animation-delay: .5s;
+        animation-fill-mode: backwards;
+    }
+    @keyframes anim{
+        0%{
+            transform: translate(-100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translate(0px);
+            opacity: 1;
+        }
+    
+    }
